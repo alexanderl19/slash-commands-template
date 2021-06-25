@@ -21,7 +21,6 @@ const command: Command = {
         `Your avatar: ${interaction.user.displayAvatarURL({ dynamic: true })}`
       );
     } else {
-      console.log(user);
       return interaction.reply(
         `${user.user.username}'s avatar: ${user.user.displayAvatarURL({
           dynamic: true,
