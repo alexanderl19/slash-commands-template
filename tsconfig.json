@@ -1,0 +1,7 @@
+{
+  "include": ["index.ts", "commands/**/*"],
+  "strict": true,
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
+}
